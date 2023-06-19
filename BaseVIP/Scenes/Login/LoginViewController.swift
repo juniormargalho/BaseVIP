@@ -36,7 +36,7 @@ final class LoginViewController: UIViewController, LoginViewControllerProtocol {
         return stack
     }()
     
-    private lazy var label: UILabel = {
+    private lazy var labelTitle: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
@@ -103,7 +103,7 @@ final class LoginViewController: UIViewController, LoginViewControllerProtocol {
     private func buildHierarchy() {
         view.addSubview(contentView)
         contentView.addSubview(stackView)
-        stackView.addArrangedSubview(label)
+        stackView.addArrangedSubview(labelTitle)
         stackView.addArrangedSubview(textFieldLogin)
         stackView.addArrangedSubview(textFieldPassword)
         stackView.addArrangedSubview(buttonContinue)
@@ -135,8 +135,6 @@ final class LoginViewController: UIViewController, LoginViewControllerProtocol {
         guard let password = textFieldPassword.text else { return }
         interactor.login(login, password)
     }
-    
-    
 }
 
 // MARK: Extension

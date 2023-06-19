@@ -64,19 +64,19 @@
 		CEB69F1C2A40C45300B3B92B /* BaseVIP */ = {
 			isa = PBXGroup;
 			children = (
-				CEB69F312A40C58A00B3B92B /* Scene */,
+				CEB69F312A40C58A00B3B92B /* Scenes */,
 				CEB69F332A40C59C00B3B92B /* Sources */,
 				CEB69F322A40C59300B3B92B /* Resources */,
 			);
 			path = BaseVIP;
 			sourceTree = "<group>";
 		};
-		CEB69F312A40C58A00B3B92B /* Scene */ = {
+		CEB69F312A40C58A00B3B92B /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				CEB69F342A40C5F100B3B92B /* Login */,
 			);
-			path = Scene;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		CEB69F322A40C59300B3B92B /* Resources */ = {
