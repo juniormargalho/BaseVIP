@@ -14,7 +14,7 @@ struct LoginFactory {
         let interactor = LoginInteractor(worker: worker, presenter: presenter)
         let viewController = LoginViewController(interactor: interactor)
         
-        presenter.viewController = viewController
+        presenter.view = viewController
         
         return viewController
     }

@@ -26,7 +26,7 @@ final class LoginInteractor: LoginInteractorProtocol {
             case .success(let model):
                 self?.presenter.didSuccessLogin(model)
             case .failure(let error):
-                self?.presenter.didFailureLogin(error.localizedDescription)
+                self?.presenter.didFailureLogin(error)
             }
         }
     }
