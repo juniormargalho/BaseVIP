@@ -15,8 +15,8 @@
 		CEB69F3A2A40C7D700B3B92B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB69F392A40C7D700B3B92B /* LoginInteractor.swift */; };
 		CEB69F3C2A40C7E900B3B92B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB69F3B2A40C7E900B3B92B /* LoginPresenter.swift */; };
 		CEB69F3E2A40C7F900B3B92B /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB69F3D2A40C7F900B3B92B /* LoginWorker.swift */; };
-		CEB69F412A40D9CF00B3B92B /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB69F402A40D9CF00B3B92B /* LoginResponseModel.swift */; };
-		CEB69F462A40DCAB00B3B92B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB69F452A40DCAB00B3B92B /* LoginViewModel.swift */; };
+		CEBE1BCB2A4A1ADD000DA440 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE1BCA2A4A1ADD000DA440 /* LoginViewModel.swift */; };
+		CEBE1BCD2A4A1B18000DA440 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE1BCC2A4A1B18000DA440 /* LoginResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		CEB69F392A40C7D700B3B92B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		CEB69F3B2A40C7E900B3B92B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		CEB69F3D2A40C7F900B3B92B /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
-		CEB69F402A40D9CF00B3B92B /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginResponseModel.swift; path = ../../../../../../../Documents/LoginResponseModel.swift; sourceTree = "<group>"; };
-		CEB69F452A40DCAB00B3B92B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ../../../../../../../Documents/LoginViewModel.swift; sourceTree = "<group>"; };
+		CEBE1BCA2A4A1ADD000DA440 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CEBE1BCC2A4A1B18000DA440 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 		CEB69F3F2A40D98F00B3B92B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CEB69F402A40D9CF00B3B92B /* LoginResponseModel.swift */,
-				CEB69F452A40DCAB00B3B92B /* LoginViewModel.swift */,
+				CEBE1BCA2A4A1ADD000DA440 /* LoginViewModel.swift */,
+				CEBE1BCC2A4A1B18000DA440 /* LoginResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,13 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB69F3C2A40C7E900B3B92B /* LoginPresenter.swift in Sources */,
-				CEB69F412A40D9CF00B3B92B /* LoginResponseModel.swift in Sources */,
 				CEB69F362A40C60700B3B92B /* LoginViewController.swift in Sources */,
 				CEB69F3E2A40C7F900B3B92B /* LoginWorker.swift in Sources */,
+				CEBE1BCB2A4A1ADD000DA440 /* LoginViewModel.swift in Sources */,
+				CEBE1BCD2A4A1B18000DA440 /* LoginResponseModel.swift in Sources */,
 				CEB69F1E2A40C45300B3B92B /* AppDelegate.swift in Sources */,
 				CEB69F382A40C7C300B3B92B /* LoginFactory.swift in Sources */,
 				CEB69F3A2A40C7D700B3B92B /* LoginInteractor.swift in Sources */,
-				CEB69F462A40DCAB00B3B92B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
